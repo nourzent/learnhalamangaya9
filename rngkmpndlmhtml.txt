@@ -1,0 +1,140 @@
+Paragraf
+<p></p>
+
+Heading
+h1..h6
+
+List 
+- Unorder List (ul)
+- Order List (ol)
+
+Gambar
+<img>, src, alt
+
+Block Formatting Text: 
+- Long Quotations
+  <blockquote></blockquote>
+- Preformatted Text, contoh penulisan puisi
+  <pre></pre>
+- Figure
+  <figure>
+    <figcaption></figcaption>
+  </figure>
+
+Inline Formatting Text: 
+- Anchor
+  <a></a>, href,
+- Emphasized Text
+  <em></em>
+- Important Text
+  <strong></strong>
+- Short Quotation
+  <q></q>, akan membuat teks menjadi kutip dua
+  cat: bisa menambahkan cite
+
+- Citation
+  <cite></cite>
+  cat: menjadikan teks italic
+- Defining Terms
+  <dfn></dfn>
+  cat: menjadikan teks italic
+- Subscript
+  C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> 
+- Superscript
+  E=MC<sup>2</sup>
+- Highlighted Text
+  <mark></mark>
+- Line Break
+  <br>
+
+
+Semantic HTML:
+- Header:
+  - <nav></nav>
+- Main:
+  - Conten:
+    - Articel
+    - Section
+  - Sidedar
+- Footer
+
+Generic Element:
+- <div></div>, penerapan pada sebuah grouping
+- <span></span>, penerapan pada inline/baris
+
+Table:
+Strukrut:
+- Table
+  - tr
+    - th
+  - tr
+    - td
+
+- colspan
+- rowspan
+
+Input Element
+<div>
+  Email:
+  <input type="email" />
+</div>
+<div>
+  Password:
+  <input type="password" />
+</div>
+
+Textarea Element
+<textarea>
+Belajar
+Dasar
+Pemrograman
+Web
+</textarea>
+
+Label Element
+<div>
+  <label for="email">Email</label>
+  <br>
+  <input type="email" id="email" />
+</div>
+ 
+<div>
+  <label for="password">Password</label>
+  <br>
+  <input type="password" id="password" />
+</div>
+
+Atribut pada Elemen Input
+<div>
+  <label for="email">Email</label>
+  <br />
+  <input type="email" id="email" placeholder="example@mail.com" required />
+</div>
+<br />
+<div>
+  <label for="password">Password</label>
+  <br />
+  <input type="password" id="password" placeholder="********" required />
+</div>
+
+Mengirim Data Formulir
+<form>
+  <div>
+    <label for="email">Email</label>
+    <br />
+    <input type="email" id="email" />
+  </div>
+ 
+  <div>
+    <label for="password">Password</label>
+    <br />
+    <input type="password" id="password" />
+  </div>
+ 
+  <button type="submit">Submit</button>
+</form>
+
+Special Character
+<p>Belajar Dasar Pemrograman Web &copy; 2023, Dicoding</p>
+
+
