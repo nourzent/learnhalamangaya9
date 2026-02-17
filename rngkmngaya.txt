@@ -1,0 +1,56 @@
+selector { Declaation }
+selector { Property Value }
+ex:
+h1 {color: green;}
+p {
+  font-size: small; 
+  font-family: sans-serif;
+  }
+
+External Style Sheet
+<head>
+  <meta charset="UTF-8" />
+  <title>Judul Dokumen</title>
+ 
+  <!-- Impor berkas CSS Anda -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+Embedded Style Sheet
+<head>
+  <meta charset="UTF-8" />
+  <title>Judul Dokumen</title>
+ 
+  <style>
+    h1 {
+      color: green;
+    }
+  </style>
+</head>
+
+Inline Style
+<nama-elemen style="color: green">Konten dari Elemen HTML</nama-elemen>
+
+
+CSS Conception
+Inheritance
+body {
+  font-family: sans-serif;
+}
+
+Group Selector
+h2,
+h3 {
+  color: #00A2C6;
+}
+
+Rule Order
+p {
+  color: red;
+}
+ 
+p {
+  color: blue;
+}
+
+
